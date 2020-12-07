@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  
+  	<parameters>
+  		<parameter name="tname" value="txtUsername"/>
+  		<parameter name="tpassw" value="txtPassword" />
+  		<parameter name="valueUname" value="Admin" />
+  		<parameter name="valuePassw" value="admin123" />
+  	</parameters>
+    <classes>
+      <class name="com.orangehrmlive.GmailTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

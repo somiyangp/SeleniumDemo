@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="valueUname" value="Admin"/>
+    <parameter name="tpassw" value="txtPassword"/>
+    <parameter name="tname" value="txtUsername"/>
+    <parameter name="valuePassw" value="admin123"/>
+    <classes>
+      <class name="com.orangehrmlive.GmailTest">
+        <methods>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="openGmail"/>
+          <include name="pimTest"/>
+        </methods>
+      </class> <!-- com.orangehrmlive.GmailTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
