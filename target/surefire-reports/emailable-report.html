@@ -8,32 +8,100 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">GmailTest</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">34,183</td><td></td><td></td></tr>
+<tr><th colspan="7">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num attn">2</td><td class="num">27,910</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">GmailTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">GmailTest</td><td><a href="#m0">login</a></td><td rowspan="1">1607348643977</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="6">GmailTest</td><td><a href="#m1">closeBrowser</a></td><td rowspan="1">1607348643999</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">login</a></td><td rowspan="2">1607348643994</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m3">login</a></td></tr><tr class="skippedeven"><td><a href="#m4">logout</a></td><td rowspan="3">1607348643998</td><td rowspan="3">0</td></tr><tr class="skippedeven"><td><a href="#m5">logout</a></td></tr><tr class="skippedeven"><td><a href="#m6">logout</a></td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">GmailTest</td><td><a href="#m7">LeaveTest</a></td><td rowspan="1">1607348643990</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">adminTest</a></td><td rowspan="1">1607348643995</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">pimTest</a></td><td rowspan="1">1607348643997</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.orangehrmlive.GmailTest</td><td><a href="#m0">logout</a></td><td rowspan="1">1607360652536</td><td rowspan="1">5105</td></tr><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.orangehrmlive.GmailTest</td><td><a href="#m1">LeaveTest</a></td><td rowspan="1">1607360647077</td><td rowspan="1">5438</td></tr><tr class="failedeven"><td><a href="#m2">login</a></td><td rowspan="1">1607360657667</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">com.orangehrmlive.GmailTest</td><td><a href="#m3">closeBrowser</a></td><td rowspan="1">1607360657684</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">logout</a></td><td rowspan="2">1607360657655</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m5">logout</a></td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.orangehrmlive.GmailTest</td><td><a href="#m6">adminTest</a></td><td rowspan="1">1607360657654</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">pimTest</a></td><td rowspan="1">1607360657681</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">GmailTest#login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;tname&apos; is required by BeforeMethod on method login but has not been marked @Optional or defined
-
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">GmailTest#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">GmailTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">GmailTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">GmailTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">GmailTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">GmailTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">GmailTest#LeaveTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;tname&apos; is required by BeforeMethod on method login but has not been marked @Optional or defined
-
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">GmailTest#adminTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;tname&apos; is required by BeforeMethod on method login but has not been marked @Optional or defined
-
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">GmailTest#pimTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;tname&apos; is required by BeforeMethod on method login but has not been marked @Optional or defined
-
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Command line test</h2><h3 id="m0">com.orangehrmlive.GmailTest#logout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#welcome&quot;}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SOMIYA&apos;, ip: &apos;169.254.77.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\SOMIYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: caffb89abdbead451b2512506c94afd2
+*** Element info: {Using=id, value=welcome}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.orangehrmlive.GmailTest.logout(GmailTest.java:63)
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.orangehrmlive.GmailTest#LeaveTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Leave&quot;}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SOMIYA&apos;, ip: &apos;169.254.77.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\SOMIYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: caffb89abdbead451b2512506c94afd2
+*** Element info: {Using=link text, value=Leave}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.orangehrmlive.GmailTest.LeaveTest(GmailTest.java:48)
+... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.orangehrmlive.GmailTest#login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Method public void com.orangehrmlive.GmailTest.login(java.lang.String,java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : dp
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.orangehrmlive.GmailTest#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.orangehrmlive.GmailTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.orangehrmlive.GmailTest#logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.orangehrmlive.GmailTest#adminTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#welcome&quot;}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SOMIYA&apos;, ip: &apos;169.254.77.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\SOMIYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: caffb89abdbead451b2512506c94afd2
+*** Element info: {Using=id, value=welcome}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.orangehrmlive.GmailTest.logout(GmailTest.java:63)
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.orangehrmlive.GmailTest#pimTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#welcome&quot;}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SOMIYA&apos;, ip: &apos;169.254.77.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\SOMIYA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63417}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: caffb89abdbead451b2512506c94afd2
+*** Element info: {Using=id, value=welcome}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.orangehrmlive.GmailTest.logout(GmailTest.java:63)
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

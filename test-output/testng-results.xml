@@ -1,17 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="187821" started-at="2020-12-07T14:01:20Z" finished-at="2020-12-07T14:04:28Z">
+  <suite name="Default suite" duration-ms="45145" started-at="2020-12-07T18:25:27Z" finished-at="2020-12-07T18:26:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="187821" started-at="2020-12-07T14:01:20Z" finished-at="2020-12-07T14:04:28Z">
+    <test name="Default test" duration-ms="45145" started-at="2020-12-07T18:25:27Z" finished-at="2020-12-07T18:26:13Z">
       <class name="com.orangehrmlive.GmailTest">
-        <test-method status="PASS" signature="openGmail()[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="openGmail" is-config="true" duration-ms="49831" started-at="2020-12-07T14:01:20Z" finished-at="2020-12-07T14:02:10Z">
+        <test-method status="PASS" signature="openGmail()[pri:0, instance:com.orangehrmlive.GmailTest@6b26e945]" name="openGmail" is-config="true" duration-ms="14268" started-at="2020-12-07T18:25:27Z" finished-at="2020-12-07T18:25:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openGmail -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="login" is-config="true" duration-ms="33579" started-at="2020-12-07T14:02:10Z" finished-at="2020-12-07T14:02:43Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.orangehrmlive.GmailTest@6b26e945]" name="login" duration-ms="3668" started-at="2020-12-07T18:25:42Z" data-provider="dp" finished-at="2020-12-07T18:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[txtUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[txtPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.orangehrmlive.GmailTest@6b26e945]" name="login" duration-ms="5508" started-at="2020-12-07T18:25:46Z" data-provider="dp" finished-at="2020-12-07T18:25:51Z">
           <params>
             <param index="0">
               <value>
@@ -37,87 +63,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="LeaveTest()[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="LeaveTest" duration-ms="17700" started-at="2020-12-07T14:02:43Z" finished-at="2020-12-07T14:03:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LeaveTest -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="logout" is-config="true" duration-ms="15602" started-at="2020-12-07T14:03:01Z" finished-at="2020-12-07T14:03:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="login" is-config="true" duration-ms="5412" started-at="2020-12-07T14:03:17Z" finished-at="2020-12-07T14:03:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[txtUsername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[txtPassword]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="adminTest()[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="adminTest" duration-ms="7000" started-at="2020-12-07T14:03:22Z" finished-at="2020-12-07T14:03:29Z">
+        <test-method status="PASS" signature="adminTest()[pri:2, instance:com.orangehrmlive.GmailTest@6b26e945]" name="adminTest" duration-ms="6684" started-at="2020-12-07T18:25:51Z" finished-at="2020-12-07T18:25:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminTest -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="logout" is-config="true" duration-ms="5704" started-at="2020-12-07T14:03:29Z" finished-at="2020-12-07T14:03:35Z">
+        <test-method status="PASS" signature="LeaveTest()[pri:3, instance:com.orangehrmlive.GmailTest@6b26e945]" name="LeaveTest" duration-ms="6015" started-at="2020-12-07T18:25:58Z" finished-at="2020-12-07T18:26:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="login" is-config="true" duration-ms="19338" started-at="2020-12-07T14:03:35Z" finished-at="2020-12-07T14:03:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[txtUsername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[txtPassword]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="pimTest()[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="pimTest" duration-ms="25080" started-at="2020-12-07T14:03:54Z" finished-at="2020-12-07T14:04:19Z">
+        </test-method> <!-- LeaveTest -->
+        <test-method status="PASS" signature="pimTest()[pri:4, instance:com.orangehrmlive.GmailTest@6b26e945]" name="pimTest" duration-ms="5213" started-at="2020-12-07T18:26:04Z" finished-at="2020-12-07T18:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pimTest -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="logout" is-config="true" duration-ms="7729" started-at="2020-12-07T14:04:19Z" finished-at="2020-12-07T14:04:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.orangehrmlive.GmailTest@28d25987]" name="closeBrowser" is-config="true" duration-ms="700" started-at="2020-12-07T14:04:27Z" finished-at="2020-12-07T14:04:28Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.orangehrmlive.GmailTest@6b26e945]" name="closeBrowser" is-config="true" duration-ms="3475" started-at="2020-12-07T18:26:09Z" finished-at="2020-12-07T18:26:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.orangehrmlive.GmailTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

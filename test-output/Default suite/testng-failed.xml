@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GmailTest">
+      <class name="com.orangehrmlive.GmailTest">
         <methods>
-          <include name="login"/>
-          <include name="pimTest"/>
-          <include name="openGmail"/>
-          <include name="logout"/>
+          <include name="adminTest"/>
           <include name="closeBrowser"/>
+          <include name="LeaveTest"/>
+          <include name="openGmail"/>
+          <include name="pimTest"/>
         </methods>
-      </class> <!-- GmailTest -->
+      </class> <!-- com.orangehrmlive.GmailTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
